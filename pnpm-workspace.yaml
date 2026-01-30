@@ -1,0 +1,8 @@
+packages:
+  - 'packages/*'
+  - 'services/*'
+
+catalog:
+  typescript: 5.6.2
+  vite: 6.0.0
+  svelte: 4.2.0

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #ff0000;
+  --secondary: #ffffff;
+  --background: #000000;
+  --surface: #1a1a1a;
+  --text: #ffffff;
+  --text-secondary: #a0a0a0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
